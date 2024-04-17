@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=deivce-width,initial-scale=1,shrink-to-fit=no">
+	<title>Bakery</title>
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/flex-box.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/global.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+
+	<header>
+		<div class="header-wrapper">
+			<div class="container">
+				<div class="header-inner-wrapper">
+					<div class="logo">
+						<h1>
+							<a href="#">Gustoso</a>
+						</h1>
+					</div>
+					<div class="menu-wrapper" id="nav-menu">
+						<div class="cross-btn">
+							<a href="#">
+								<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+							</a>
+							<div class="logo">
+								<h1>
+									<a href="#">
+										Gustoso
+									</a>
+								</h1>
+							</div><!--end-logo-->
+						</div>
+						<nav>
+							<ul class="menu">
+								<li><a href="#">Welcome</a></li>
+								<li class="menu-item-has-children" id="bar"><a href="#">menu</a>
+									<ul class="sub-menu" id="nav-menu-toogle">
+										<li><a href="bloglist.html">Blog List</a></li>
+										<li><a href="blogdetail.html">Blog Detail</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Reservations</a></li>
+								<li class="megamenu">
+									<a href="#">news</a>
+									<div class="sub-mega-menu">
+										<div class="container">
+											<div class="row">
+												<div class="col">
+													<div class="mega-menu-item">
+														<h4>Home Style</h4>
+
+														<ul class="mega-menu-list">
+															<li><a href="index.html">Home</a></li>
+															<li><a href="bloglist.html">Blog</a></li>
+															<li><a href="blogdetail.html">Blog Detail</a></li>
+															<li><a href="#">About</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col">
+													<div class="mega-menu-item">
+														<h4>Home Style</h4>
+
+														<ul class="mega-menu-list">
+															<li><a href="index.html">Home style 1</a></li>
+															<li><a href="#">Home style 2</a></li>
+															<li><a href="#">Home style 3</a></li>
+															<li><a href="#">Home style 4</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col">
+													<div class="mega-menu-item">
+														<h4>Home Style</h4>
+
+														<ul class="mega-menu-list">
+															<li><a href="#">Home style 5</a></li>
+															<li><a href="#">Home style 6</a></li>
+															<li><a href="#">Home style 7</a></li>
+															<li><a href="#">Home style 8</a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col">
+													<div class="mega-menu-item">
+														<h4>Home Style</h4>
+
+														<ul class="mega-menu-list">
+															<li><a href="#">Home style 9</a></li>
+															<li><a href="#">Home style 10</a></li>
+															<li><a href="#">Faq's</a></li>
+															<li><a href="#">Contact</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li><a href="#">contact</a></li>
+							</ul>
+						</nav>
+						<div class="social-icon-wrapper">
+							<ul>
+								<li><a href="#" class="wpe-circle-prcnt-50 social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+								<li><a href="#" class="wpe-circle-prcnt-50 social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+								<li><a href="#" class="wpe-circle-prcnt-50 social-icon"><i class="fa-brands fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="social-icon-wrapper">
+						<ul>
+							<li><a href="#" class="wpe-circle-prcnt-50 social-icon"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#" class="wpe-circle-prcnt-50 social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#" class="wpe-circle-prcnt-50 social-icon"><i class="fa-brands fa-instagram"></i></a></li>
+						</ul>
+					</div>
+					<div class="menu-toggle">
+						<a href="#" onclick="showmenu()">
+							<i class="fas fa-bars"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+	<section>
+		<div class="banner-wrapper" style="background-image:url('assets/images/bg/banner-img1.jpg');">
+			<div class="banner-contact-wrapper">
+				<div class="container">
+					<div class="banner-content">
+						<h1>Pastry with love</h1>
+						<figure>
+							<img src="assets/images/resources/dashed-img.png">
+						</figure>
+						<p>We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
+						<a href="#" class="theme-btn">Our menu</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section>
+		<div class="art-img">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="art-content">
+							<div class="title">
+								<h2>Art of cakes</h2>
+								<span>we create delicious memories</span>
+							</div>
+							<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
+							<div class="chef-wrapper">
+								<h4>Chef Cook</h4>
+								<div class="chef-content">
+									<ul>
+										<li class="chef-name">
+											<a href="#">
+												Banito
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<figure>
+													<img src="assets/images/resources/chef-img.jpg" alt="chef-img">
+												</figure>
+											</a>
+										</li>
+										<li class="chef-name">
+											<a href="#">
+												Gaspare
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="chef-desc">
+									<p>Unique creations for unique occasions.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="cake-img">
+							<figure>
+								<img src="assets/images/resources/art-img.jpg" alt="art-img">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="art-border">
+				<figure>
+					<img src="assets/images/resources/border-img.png">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="pancake-wrapper" style="background-image:url('assets/images/bg/banner-img3.jpg');">
+			<div class="container">
+				<div class="pancake-inner-wrapper">
+					<div class="pancake-img">
+						<figure>
+							<img src="assets/images/resources/pancake-img.png" alt="pancake-img">
+						</figure>
+					</div>
+					<div class="pancake-content">
+						<div class="title">
+							<h2>Tasty pancakes</h2>
+							<span>season favourite</span>
+						</div>
+						<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+						<div class="owl-carousel owl-pancake owl-theme">
+							<div class="item">
+								<figure>
+									<img src="assets/images/resources/pancake-img2.png">
+								</figure>
+							</div>
+							<div class="item">
+								<figure>
+									<img src="assets/images/resources/pancake-img3.jpg">
+								</figure>
+							</div>
+							<div class="item">
+								<figure>
+									<img src="assets/images/resources/pancake-img4.jpg">
+								</figure>
+							</div>
+							<div class="item">
+								<figure>
+									<img src="assets/images/resources/pancake-img2.png">
+								</figure>
+							</div>
+						</div>
+						<div class="fan-img">
+							<figure>
+								<img src="assets/images/resources/fan-img.png" alt="fan-img">
+							</figure>
+						</div>
+					</div>
+					<div class="rating-wrapper">
+						<ul>
+							<li><i class="fas fa-star on"></i></li>
+							<li><i class="fas fa-star on"></i></li>
+							<li><i class="fas fa-star on"></i></li>
+							<li><i class="fas fa-star on"></i></li>
+							<li><i class="fas fa-star on"></i></li>
+						</ul>
+					</div>
+					<div class="read-wrapper">
+						<div class="read-img">
+							<figure>
+								<img src="assets/images/resources/village-img.jpg">
+							</figure>
+						</div>
+						<div class="read-content">
+							<span>Ready in</span>
+							<h2>40</h2>
+							<p>mins</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="breakfast-wrapper" style="background-image:url('assets/images/bg/banner-img4.jpg')">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-6 col-sm-12">
+						<div class="breakfast-content">
+							<div class="title">
+								<h2>Breakfast</h2>
+								<span>7am Breakfast? we’re open!</span>
+							</div>
+							<div class="breakfast-list">
+								<div class="breakfast-block">
+									<h4>Full breakfast</h4>
+									<p>Duis ut tortor, et risus, vulputate pretium</p>
+									<div class="breakfast-rate">$12.49</div>
+									<figure>
+										<img src="assets/images/resources/fly-img.png" alt="fly-img">
+									</figure>
+								</div>
+								<div class="breakfast-block">
+									<h4>Toast & Jam</h4>
+									<p>Duis ut tortor, et risus, vulputate pretium</p>
+									<div class="breakfast-rate">$4.90</div>
+									<figure>
+										<img src="assets/images/resources/fly-img.png" alt="fly-img">
+									</figure>
+								</div>
+								<div class="breakfast-block">
+									<h4>Muffins</h4>
+									<p>Duis ut tortor, et risus, vulputate pretium</p>
+									<div class="breakfast-rate">$3.95</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div class="breakfast-chart-wrapper">
+							<div class="breakfast-page">
+								<div class="breakfast-chart">
+									<ul>
+										<li>Est.</li>
+										<li>1893</li>
+									</ul>
+									<figure>
+										<img src="assets/images/resources/border-img2.png" alt="border-img">
+									</figure>
+									<div class="chart-content">
+										<h3>Your morning Escape with Flair</h3>
+										<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+										<a href="#" class="theme-btn">Read</a>
+									</div>
+								</div>
+								<div class="leaf-img">
+									<figure>
+										<img src="assets/images/resources/leaf-img.png" alt="leaf-img">
+									</figure>
+								</div>
+							</div>
+							<div class="breakfast-page v2">
+								<div class="breakfast-chart">
+									<ul>
+										<li>Est.</li>
+										<li>1893</li>
+									</ul>
+									<figure>
+										<img src="assets/images/resources/border-img2.png" alt="border-img">
+									</figure>
+									<div class="chart-content">
+										<h3>Your morning Escape with Flair</h3>
+										<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+										<a href="#" class="theme-btn">Read</a>
+									</div>
+								</div>
+							</div>
+							<div class="breakfast-page v3">
+								<div class="breakfast-chart">
+									<ul>
+										<li>Est.</li>
+										<li>1893</li>
+									</ul>
+									<figure>
+										<img src="assets/images/resources/border-img2.png" alt="border-img">
+									</figure>
+									<div class="chart-content">
+										<h3>Your morning Escape with Flair</h3>
+										<p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</p>
+										<a href="#" class="theme-btn">Read</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="sandwich-wrapper">
+			<div class="container">
+				<div class="title">
+					<h2>The Jibarito sandwich</h2>
+					<span>the best sandwich you’ve ever tasted!</span>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<div class="sandwich-inner-wrapper">
+							<div class="sandwich-block">
+								<div class="sandwich-image">
+									<figure>
+										<img src="assets/images/resources/sandwich-img1.png" alt="sandwich-img">
+									</figure>
+								</div>
+								<div class="sandwich-content">
+									<h4><a href="#">Class aptent</a></h4>
+									<p>Quot alienum persecuti ut eam, nam ad atqui primis nusquam.</p>
+								</div>
+							</div>
+							<div class="sandwich-block">
+								<div class="sandwich-image">
+									<figure>
+										<img src="assets/images/resources/sandwich-img2.png" alt="sandwich-img">
+									</figure>
+								</div>
+								<div class="sandwich-content">
+									<h4><a href="#">Nulla eget</a></h4>
+									<p>Nullam dictum felis eu pede mollis pretium Integer tincidunt.</p>
+								</div>
+							</div>
+							<div class="sandwich-block">
+								<div class="sandwich-image">
+									<figure>
+										<img src="assets/images/resources/sandwich-img3.png" alt="sandwich-img">
+									</figure>
+								</div>
+								<div class="sandwich-content">
+									<h4><a href="#">Sed nibh purus</a></h4>
+									<p> Aenean eleifend tellus leo ligula, porttitor eu, consequat vitae.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-12 col-sm-12">
+						<div class="recipe-wrapper">
+							<div class="recipe-image">
+								<figure>
+									<img src="assets/images/resources/recipe-img.jpg" alt="recipe-img">
+								</figure>
+							</div>
+							<div class="recipe-tag">
+								<span>Full Recipe</span>
+							</div>
+							<div class="recipe-list">
+								<div class="recipe-block">
+									<div class="recipe-timing">
+										
+										<div class="recipe-info">
+											<span>Prep</span>
+											<h2>15</h2>
+											<p>mins</p>
+										</div>
+									</div>
+								</div>
+								<div class="recipe-block">
+									<div class="recipe-timing">
+										
+										<div class="recipe-info">
+											<span>Cook</span>
+											<h2>35</h2>
+											<p>mins</p>
+										</div>
+									</div>
+								</div>
+								<div class="recipe-block">
+									<div class="read-wrapper">
+										<div class="read-img">
+											<figure>
+												<img src="assets/images/resources/village-img.jpg">
+											</figure>
+										</div>
+										<div class="read-content">
+											<span>Ready in</span>
+											<h2>50</h2>
+											<p>mins</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="place-image">
+				<figure>
+					<img src="assets/images/resources/village-img2.png" alt="village-img">
+				</figure>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer-widget">
+			<div class="container">
+				<div class="wpe-widget">
+					<div class="ft-main">
+						<div class="ft-nav">
+							<ul>
+								<li><a href="#">Our menu</a></li>
+								<li><a href="#">Gallery</a></li>
+								<li><a href="#">Culture</a></li>
+							</ul>
+						</div>
+						<div class="ft-logo logo">
+							<h1>
+								<a href="#">Gustoso</a>
+							</h1>
+						</div>
+						<div class="ft-nav">
+							<ul>
+								<li><a href="#">Events</a></li>
+								<li><a href="#">Catering</a></li>
+								<li><a href="#">Visit us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/flex-box.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="https://kit.fontawesome.com/00d034d2d5.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
